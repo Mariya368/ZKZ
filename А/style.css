@@ -1,0 +1,99 @@
+
+body {position: absolute; padding: 10px; background-color:rgb(233, 221, 151); font-family: Helvetica Neue; font-weight: 100; width: 95%;}
+
+div {  
+  width: 1200px; 
+  background-color: rgb(233, 221, 151); 
+  margin: auto;}
+
+h3 {color: rgb(175, 6, 198); font-weight: 400; font-size: 27px; text-align: left; padding-left: 40px; padding-right: 40px;}
+h5 {color:rgb(255, 255, 255); text-align: left; padding-left: 10px; font-size: 30px; font-weight: 200}
+
+.Kh{color:white ; font-size: 25px; font-weight: 400; text-align: left; padding-left: 40px; padding-right: 40px;}
+
+tr:hover {background-color: rgb(240, 100, 228);}
+
+
+
+#bar { background-color: fuchsia}
+
+
+
+.stat {text-align: center; font-size: 180%;}
+
+.one {
+  text-align: center;
+  word-spacing: 180px;
+   font-size: 180%;
+   color:#fff;
+ }
+
+ .two {
+    text-align: center;
+    word-spacing: 180px;
+
+   }
+
+ .imgss img {height: 350px; width: 350px; }
+ .imgss {text-align: center; }
+ 
+
+
+
+table {
+ margin: auto;
+  height: 450px ; width: 800px; 
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 0 0 0 5px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+ 
+  }
+
+
+
+  .owl-carousel img {
+    height: 600px; width: 450px; padding-left: 400px; 
+  }
+  
+  .owl-carousel {display: inline}
+  
+  .owl-pagination {display: flex;}
+  
+  .owl-page {background-color: rgb(233, 221, 151);}
+  
+.span {color: rgb(215, 107, 224); }
+
+  $(document).ready(function(){
+	
+    /* Находим блок карусели*/
+    var carousel = $("#carousel");
+  
+    /* Запускаем плагин карусели*/
+    carousel.owlCarousel();
+  });
+  .owl-wrapper-outer {
+    border: 1px solid  rgb(255, 200, 243);
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+  }
+  
+  /* 1 квадратик карусели */
+  .carousel-element {
+    padding: 30px;
+    text-align: center;
+    font-size: 300%;
+    border-right: 1px solid  rgb(23, 92, 219);
+  }
+
+  .sketchfab-embed-wrapper iframe {width: 800px; height: 600px;}
+  .sketchfab-embed-wrapper {text-align: center;}
+
+
+
+  .contacs {
+    font-size: 50px;
+  }
+  
